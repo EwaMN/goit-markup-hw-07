@@ -1,0 +1,27 @@
+.headerindex_navigationlist {
+    display:flex;
+    align-items: center;
+}
+
+.headerindex_navigationlistlink {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.333;
+    letter-spacing: 0.02em;
+    color: $mainColor;
+    
+    &:hover,
+    &:focus,
+    &:active {
+        color: $secondaryColor;
+        transition-duration:250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+.headerindex_navigationlistitem:not(:last-child) {
+    margin-right: 46px;
+}
+
+
+
+

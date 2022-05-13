@@ -1,0 +1,54 @@
+.footer_button {
+    width: 200px;
+    height: 50px;
+    background: $secondaryColor;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left:12px;
+    color: $thirdColor;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.footer_send {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    margin-left: 24px;
+}
+.footer_newsletter {
+    display: flex;
+    color: $thirdColor;
+    text-transform: uppercase;
+}
+.footer_newslist {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer_input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 16px;
+    background-color: $fifthColor;
+}
+

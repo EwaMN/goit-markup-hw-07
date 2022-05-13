@@ -1,0 +1,21 @@
+.title {
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+     url("../images/imgmainpic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &_text {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.364;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: $thirdColor;
+        margin-bottom: 40px;
+        max-width: 696px;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top:106px;
+    }
+}

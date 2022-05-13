@@ -1,0 +1,22 @@
+
+.header {
+    background-color: $thirdColor;
+    border-bottom: 1px solid $lineColor;
+
+    & .container{
+        display:flex;
+        align-items: center;
+    }
+
+    &_logonav {
+        padding-top: 24px;
+        padding-bottom:25px;
+        margin-right:93px;
+        color: $mainColor;
+        font-family: $secondaryFont;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.192;
+        letter-spacing: 0.03em;
+    }
+}

@@ -1,0 +1,41 @@
+.paragraphs {
+    background-color: $backgroundColor;
+
+    & .container  {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    &_list  {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_listitem:not(:last-child) {
+        margin-right:30px;
+    }
+
+    &_title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.15;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &_content {
+        font-size: 14px;
+        line-height: 1.15;
+        letter-spacing: 0.03em;
+        color: $fourthColor;
+    }
+    &_picture {
+        width: 270px;
+        height: 120px;
+        background-color: $seventhColor;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

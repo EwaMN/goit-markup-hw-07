@@ -1,0 +1,57 @@
+
+.footer_logo {
+    color: $seventhColor;
+    font-family: $secondaryFont;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    padding-top: 24px;
+    padding-bottom:25px;
+    margin-right:93px;
+    
+}
+    
+.footer_address {
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    color: $thirdColor;
+    margin-top:20px;
+    margin-bottom:9px;
+  
+}
+.footer_mail {
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    color: $sixthColor;
+    margin-bottom: 9px;
+
+    &:hover,
+    &:focus {
+        color: $secondaryColor;
+        transition-duration:250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.footer_phone {
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    color: $sixthColor;
+    
+    &:hover,
+    &:focus {
+        color: $secondaryColor;
+        transition-duration:250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+.footer_contact {
+    display: flex;
+    color: $thirdColor;
+    text-transform: uppercase;
+}

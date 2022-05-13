@@ -1,0 +1,64 @@
+body {
+    font-family: $mainFont;
+    color:$mainColor;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+
+}
+p {
+    padding: 0;
+}
+span{
+    color: $secondaryColor;
+}
+.list {
+    list-style: none;
+    
+}
+.link {
+    text-decoration:none;
+}
+img {
+    display: block;
+}
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    align-items: center;
+    margin: 0 auto;
+}
+section {
+    padding-bottom: 94px;
+    padding-top: 94px
+}
+.current::after {
+    position:absolute;
+    content: '';
+    width: 53px;
+    height: 4px;
+    background: $secondaryColor;
+    border-radius: 2px;
+    top:76px;
+}
+
+.current2::after {
+    position:absolute;
+    content: '';
+    width: 58px;
+    height: 4px;
+    background: $secondaryColor;
+    border-radius: 2px;
+    top:76px;
+}

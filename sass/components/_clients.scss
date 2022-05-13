@@ -1,0 +1,44 @@
+.clients_list {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients_title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+.clients_listitem {
+    width:170px;
+    height: 92px;
+    border: 1px solid $mainFill;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: $mainFill;
+    
+    &:hover,
+    &:focus {
+        border-color: $secondaryColor;
+        transition-duration:250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+
+.clients_picture {
+    fill: $mainFill;
+
+    &:hover,
+    &:focus,
+    &:active {
+        fill: $secondaryColor;
+        transition-duration:250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

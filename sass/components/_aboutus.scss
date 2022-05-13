@@ -1,0 +1,44 @@
+
+.aboutus {
+    background-color: $backgroundColor;
+    padding-top: 0px;
+
+    &_title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.167;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 50px;
+    }
+}
+.aboutus_list {
+    display: flex;
+    justify-content: space-between;
+    
+    &:not(:last-child) {
+        margin-right:30px;}
+    }
+.aboutus_picture {
+    position: relative;
+    overflow: hidden;
+    mix-blend-mode: normal;
+    display: block;
+
+    & .aboutus_text {
+        position: absolute;
+        font-size: 14px;
+        background-color: rgba(47, 48, 58, 0.8);
+        color: $thirdColor;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        bottom: 0;
+        width: 100%;
+        height: 70px;
+        padding: 27px 90px;
+        font-weight: 700;
+        line-height: 16px;
+        margin: 0;
+    }
+}

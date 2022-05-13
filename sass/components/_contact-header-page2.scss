@@ -1,0 +1,48 @@
+.header_mailto {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.333;
+    letter-spacing: 0.02em;
+    margin-left:345px;
+    color: $fourthColor;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $secondaryColor;
+        fill: $secondaryColor;
+        transition-duration:250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.header_telephone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.333;
+    letter-spacing: 0.02em;
+    margin-left:30px;
+    color: $mainColor;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $fourthColor;
+        fill: $fourthColor;
+        transition-duration:250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.header_mailicon {
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    justify-content:center ;
+ }
+ 
+ .header_phoneicon {
+     justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+ }

@@ -1,0 +1,38 @@
+.sociallink {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    &:not(:last-child){
+        margin-right:10px;
+    }
+    &_item {
+        display: flex;
+        width: 44px;
+        height: 44px;
+        background-color: $thirdColor;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        fill: $mainFill;
+    }
+
+        &_item:hover,
+        &_item:focus {
+            background-color: $secondaryColor;
+            fill: $thirdColor;
+            transition-duration:250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+    &_item:not(:last-child) {
+        margin-right:10px;
+    }
+}
+
+.sociallink_icon{
+    width: 20px;
+    height: 20px;
+}
